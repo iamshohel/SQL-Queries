@@ -1,0 +1,20 @@
+// SQL Queries (Workshop) 
+
+// Query 1
+Select * from users;
+Select * from orders;
+Select * from products;
+Select * from address;
+
+//Query 2
+ select sum(total) from orders;
+
+//Query 3
+UPDATE orders SET city='indore' where order_id = 01;
+
+//Query 4
+update products set product_description =' apple store' where product_id = 'P1';
+
+//Query 5
+ Select product_returnable from products;
+ Select product_returnable from products where product_returnable = 'yes';
